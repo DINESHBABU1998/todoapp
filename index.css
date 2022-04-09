@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+}
+.task{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+.list{
+    font-size: 3rem ;
+    font-family: sans-serif;
+    color:whitesmoke;
+    position: absolute;
+    left: 245px;
+    top: 52px;
+}
+#pop{
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    left: 1250px;
+    top: 73px;
+}
+.add{
+    font-size: 25px;
+    font-family: sans-serif;
+    color:red;
+    position: absolute;
+    left: 1280px;
+    top: 71px;
+}
+#todo{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+#container2 {
+    background-color: white;
+    border: 2px solid rgb(235, 92, 92);
+    border-radius: 15px;
+    height: 300px;
+    width : 500px;
+    border: 2px solid green;
+    position: relative;
+    top: 200px;
+    left: 500px;
+    display: none;
+}
+#list{
+    color: red;
+    font-family: sans-serif;
+    position: absolute;
+    left: 180px;
+    top: 20px;
+}
+#new{
+    font-size: 20px;
+    font-family: sans-serif;
+    height: 50px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    left: 95px;
+    top: 100px;
+}
+#add1{
+    color: white;
+    font-size: 19px;
+    background-color: red;
+    font-family: sans-serif;
+    height:50px;
+    width: 120px;
+    border-radius: 25px;
+    position: absolute;
+    left: 95px;
+    top: 200px;
+}
+#close{
+    color: white;
+    font-size: 19px;
+    background-color: red;
+    font-family: sans-serif;
+    height:50px;
+    width: 120px;
+    border-radius: 25px;
+    position: absolute;
+    left: 280px;
+    top: 200px;
+}
+#add1:hover{
+    cursor: pointer;
+}
+#close:hover{
+    cursor: pointer;
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    position: relative;
+    top: 180px;
+}
+.child{
+    color: red;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    height:400px;
+    width: 300px;
+    border: 2px solid rgb(3, 114, 27);
+    background-color: white;
+    margin: 50px;
+    border-radius: 5px;
+}
+#additem{
+    position: relative;
+    top: 135px;
+    left: 45px;
+}
+#delitem{
+    position: relative;
+    top: 136px;
+    left: 50px;
+}
+#additem #delitem:hover{
+    cursor: pointer;
+}
